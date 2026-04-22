@@ -12,7 +12,8 @@ env/
 # Generated data & outputs (keep folder via .gitkeep)
 data/*.csv
 data/*.db
-output/*.html
+# Keep output/dashboard.html in the repo so visitors can see the result
+# output/*.html
 
 # IDE
 .vscode/
