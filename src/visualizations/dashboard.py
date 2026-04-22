@@ -151,9 +151,10 @@ def wage_gap_bar(oecd_df: pd.DataFrame) -> go.Figure:
     fig.update_layout(
         height=620,
         coloraxis_showscale=False,
-        margin=dict(l=20, r=60, t=20, b=40),
+        margin=dict(l=160, r=80, t=20, b=40),
         xaxis_title="Gender Wage Gap (%)",
     )
+    fig.update_yaxes(automargin=True, tickfont=dict(size=12))
     return fig
 
 
