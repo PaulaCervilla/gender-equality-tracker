@@ -493,7 +493,7 @@ _HTML_TEMPLATE = """\
 <footer>
   <div>
     Built with <strong>Python</strong> · pandas · Plotly · BeautifulSoup · VADER ·
-    <a href="https://github.com/" target="_blank" rel="noopener">view source on GitHub</a>
+    <a href="https://github.com/PaulaCervilla/gender-equality-tracker" target="_blank" rel="noopener">view source on GitHub</a>
   </div>
   <div class="stack">© 2026 Gender Equality Tracker · data pulled {today}</div>
 </footer>
