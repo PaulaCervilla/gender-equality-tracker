@@ -4,13 +4,15 @@
 
 **An end-to-end Python data pipeline that turns public data into an interactive story about gender equality.**
 
-[![CI](https://github.com/PaulaCervilla/gender-equality-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/gender-equality-tracker/actions/workflows/ci.yml)
+[![CI](https://github.com/PaulaCervilla/gender-equality-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/PaulaCervilla/gender-equality-tracker/actions/workflows/ci.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Plotly](https://img.shields.io/badge/charts-Plotly-3F4F75.svg)](https://plotly.com/python/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 *World Bank · OECD · Live news · NLP · Composite scoring · Interactive dashboard*
+
+### 👉 [**View the live interactive dashboard**](https://paulacervilla.github.io/gender-equality-tracker/output/dashboard.html)
 
 </div>
 
@@ -60,7 +62,7 @@ flowchart LR
 ## 🚀 Quick start
 
 ```bash
-git clone https://github.com/your-username/gender-equality-tracker.git
+git clone https://github.com/PaulaCervilla/gender-equality-tracker.git
 cd gender-equality-tracker
 
 # create & activate a virtualenv
@@ -85,7 +87,7 @@ open output/dashboard.html           # macOS
 
 ## 📊 What you get
 
-### Interactive dashboard ([`output/dashboard.html`](output/dashboard.html))
+### Interactive dashboard — [**view live**](https://paulacervilla.github.io/gender-equality-tracker/output/dashboard.html) · [source](output/dashboard.html)
 
 A single self-contained, responsive HTML file with:
 
@@ -181,7 +183,6 @@ The OECD extractor ships with an **embedded snapshot fallback**: if the live end
 ## 🌱 Ideas for future work
 
 - Add a **time-series animation** of the choropleth (year slider)
-- Schedule a daily ETL via **GitHub Actions cron** and publish the dashboard to **GitHub Pages**
 - Train a small **topic model** (BERTopic) on the scraped headlines instead of a bag-of-words sentiment score
 - Layer on **UN SDG-5** indicators for cross-validation of the composite score
 - Replace SQLite with **DuckDB** for faster analytical queries on the long-format frame
