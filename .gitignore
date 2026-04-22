@@ -1,0 +1,24 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Generated data & outputs (keep folder via .gitkeep)
+data/*.csv
+data/*.db
+output/*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Notebook checkpoints
+.ipynb_checkpoints/
